@@ -1,0 +1,1100 @@
+09:29:39.658 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 22374 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+09:29:39.662 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+09:29:40.362 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+09:29:40.369 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:29:40.370 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:29:40.370 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+09:29:40.401 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:29:40.401 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 698 ms
+09:29:40.700 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+09:29:40.700 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+09:29:40.843 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:29:40.857 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+09:29:40.866 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.542 seconds (process running for 2.193)
+09:29:40.867 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+09:29:59.168 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:29:59.169 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:29:59.173 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+09:29:59.175 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/index.html
+09:29:59.221 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/plugins/element-ui/index.css
+09:29:59.226 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/images/icons/btn_back@2x.png
+09:29:59.226 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/styles/index.css
+09:29:59.226 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/images/login/login-logo.png
+09:29:59.226 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/styles/common.css
+09:29:59.227 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/styles/icon/iconfont.css
+09:29:59.236 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/plugins/element-ui/index.js
+09:29:59.236 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/plugins/vue/vue.js
+09:29:59.237 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/images/icons/btn_close@2x.png
+09:29:59.237 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/plugins/axios/axios.min.js
+09:29:59.239 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/js/request.js
+09:29:59.242 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/api/login.js
+09:29:59.280 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/page/member/list.html
+09:29:59.290 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/api/member.js
+09:29:59.290 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/styles/page.css
+09:29:59.339 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /employee/page
+09:29:59.340 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+09:29:59.351 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+09:29:59.368 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 拦截到 url： /backend/favicon.ico
+09:30:34.285 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+10:06:08.724 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 22715 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:06:08.726 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:06:09.415 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:06:09.422 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:06:09.423 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:06:09.423 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:06:09.456 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:06:09.456 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+10:06:09.771 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:06:09.771 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:06:09.927 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:06:09.939 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:06:09.947 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.51 seconds (process running for 2.274)
+10:06:09.949 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:06:17.511 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:06:17.512 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:06:17.513 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:06:17.516 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:06:17.525 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:06:39.351 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+10:06:41.699 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 22743 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:06:41.702 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:06:42.380 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:06:42.387 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:06:42.388 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:06:42.388 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:06:42.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:06:42.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 678 ms
+10:06:42.706 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:06:42.706 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:06:42.853 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:06:42.862 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:06:42.871 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.426 seconds (process running for 1.807)
+10:06:42.873 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:06:45.382 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:06:45.382 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:06:45.383 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:06:45.384 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:06:45.393 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:06:55.499 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+10:06:55.500 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:06:58.760 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+10:06:58.761 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:08:07.081 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+10:08:09.517 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 22809 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:08:09.520 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:08:10.198 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:08:10.205 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:08:10.206 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:08:10.206 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:08:10.234 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:08:10.235 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 675 ms
+10:08:10.528 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:08:10.529 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:08:10.677 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:08:10.688 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:08:10.696 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.423 seconds (process running for 1.833)
+10:08:10.697 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:08:27.519 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:08:27.520 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:08:27.521 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:08:27.523 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:08:27.524 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.591 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+10:08:27.592 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.591 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+10:08:27.591 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+10:08:27.592 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+10:08:27.592 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+10:08:27.592 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.592 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.591 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+10:08:27.593 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.592 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.592 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.600 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+10:08:27.600 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+10:08:27.600 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+10:08:27.601 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.600 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+10:08:27.601 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.601 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.601 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.601 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+10:08:27.601 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.601 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+10:08:27.602 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.621 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+10:08:27.623 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.679 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+10:08:27.679 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.695 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+10:08:27.695 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+10:08:27.695 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.695 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.778 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:08:27.805 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:08:27.809 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+10:08:27.810 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.929 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+10:08:27.930 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.976 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+10:08:27.976 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+10:08:27.977 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.977 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.976 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+10:08:27.977 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:08:27.977 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+10:08:27.977 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:09:11.038 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:09:11.038 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+10:09:11.039 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:09:11.039 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:09:11.223 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:09:11.586 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:09:11.586 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:09:11.586 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:09:11.589 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:09:31.698 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:09:31.706 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:31:44.972 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 22955 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:31:44.974 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:31:45.622 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:31:45.629 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:31:45.630 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:31:45.630 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:31:45.659 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:31:45.660 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+10:31:45.972 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:31:45.972 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:31:46.112 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:31:46.126 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:31:46.135 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.431 seconds (process running for 2.005)
+10:31:46.137 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:31:49.986 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:31:49.987 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:31:49.988 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:31:49.990 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:31:49.991 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.036 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+10:31:50.037 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.037 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+10:31:50.038 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.039 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+10:31:50.039 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.039 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+10:31:50.039 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.040 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+10:31:50.040 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.041 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+10:31:50.041 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.063 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+10:31:50.063 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+10:31:50.064 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+10:31:50.064 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.064 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.064 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+10:31:50.064 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.064 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+10:31:50.064 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.063 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+10:31:50.065 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.064 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.090 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+10:31:50.091 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.163 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+10:31:50.163 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.172 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+10:31:50.172 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+10:31:50.172 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.172 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.252 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:31:50.272 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:31:50.325 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+10:31:50.326 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.403 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+10:31:50.403 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.458 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+10:31:50.458 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.458 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+10:31:50.458 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.458 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+10:31:50.458 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+10:31:50.458 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:50.458 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:51.684 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:31:51.684 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+10:31:51.684 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:51.684 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:51.849 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:31:52.116 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:31:52.117 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:31:52.118 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:31:52.124 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:31:54.617 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/add.html
+10:31:54.617 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:31:54.637 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/index.js
+10:31:54.637 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:32:03.005 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+10:32:03.005 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:35:12.634 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:35:12.636 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:35:44.813 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:35:44.845 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:39:03.683 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 23004 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:39:03.686 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:39:04.356 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:39:04.363 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:39:04.364 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:39:04.364 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:39:04.396 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:39:04.396 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 673 ms
+10:39:04.698 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:39:04.699 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:39:04.839 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:39:04.854 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:39:04.863 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.43 seconds (process running for 1.987)
+10:39:04.864 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:39:08.052 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:39:08.052 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:39:08.054 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:39:08.056 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:39:08.057 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.108 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+10:39:08.109 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.109 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+10:39:08.109 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.109 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+10:39:08.109 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.109 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+10:39:08.109 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.109 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+10:39:08.111 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.112 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+10:39:08.113 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.168 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+10:39:08.168 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.168 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+10:39:08.168 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.168 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+10:39:08.168 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+10:39:08.169 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.184 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+10:39:08.184 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.168 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+10:39:08.169 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.185 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.239 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+10:39:08.239 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.391 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+10:39:08.391 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.399 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+10:39:08.400 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.435 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+10:39:08.436 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.436 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+10:39:08.436 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.698 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+10:39:08.698 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.719 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:39:08.734 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:39:08.853 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+10:39:08.854 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.903 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+10:39:08.903 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+10:39:08.903 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+10:39:08.904 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.904 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.904 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.913 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+10:39:08.914 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.999 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+10:39:08.999 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+10:39:08.999 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:08.999 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:09.128 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+10:39:09.128 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:17.869 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:39:17.869 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:17.874 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+10:39:17.874 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:18.013 [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:39:18.347 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:39:18.347 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:39:18.348 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:39:18.349 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:39:19.967 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/add.html
+10:39:19.967 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:19.986 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/index.js
+10:39:19.986 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:39:41.283 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:39:41.284 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:39:41.356 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:39:41.357 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:39:41.357 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:39:41.357 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:40:11.034 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:40:11.062 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:40:32.184 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 23060 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:40:32.188 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:40:32.848 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:40:32.855 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:40:32.856 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:40:32.856 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:40:32.885 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:40:32.885 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 668 ms
+10:40:33.186 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:40:33.187 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:40:33.353 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:40:33.371 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:40:33.380 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.451 seconds (process running for 1.995)
+10:40:33.382 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:40:41.987 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:40:41.987 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:40:41.988 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:40:41.991 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:40:41.992 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:40:42.162 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:40:42.188 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:40:43.305 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:40:43.305 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:40:43.504 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:40:43.766 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:40:43.767 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:40:43.768 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:40:43.773 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:41:22.678 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:41:22.680 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:41:22.794 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:41:22.794 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:41:22.794 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:41:22.795 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:42:29.624 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:42:29.626 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:42:29.668 [http-nio-8080-exec-10] WARN  c.a.d.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 66945
+10:42:29.772 [http-nio-8080-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'zhangsan' for key 'employee.idx_username'
+### The error may exist in com/liyang/reggie_takeout/mapper/EmployeeMapper.java (best guess)
+### The error may involve com.liyang.reggie_takeout.mapper.EmployeeMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO employee  ( id, username, name, password, phone, sex, id_number,  create_time, update_time, create_user, update_user )  VALUES (  ?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ?  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'zhangsan' for key 'employee.idx_username'
+; Duplicate entry 'zhangsan' for key 'employee.idx_username'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'zhangsan' for key 'employee.idx_username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy78.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:152)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy67.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
+	at com.liyang.reggie_takeout.service.Impl.EmployeeServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.liyang.reggie_takeout.controller.EmployeeController.add(EmployeeController.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.liyang.reggie_takeout.filter.LoginCheckFilter.doFilter(LoginCheckFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+10:42:36.631 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:42:36.633 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:45:48.075 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 23217 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:45:48.078 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:45:48.980 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:45:48.987 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:45:48.989 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:45:48.989 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:45:49.022 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:45:49.022 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 888 ms
+10:45:49.394 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:45:49.395 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:45:49.583 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:45:49.596 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:45:49.605 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.923 seconds (process running for 2.646)
+10:45:49.608 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:46:03.007 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:46:03.008 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:46:03.010 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+10:46:03.013 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:46:03.014 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:03.231 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:46:03.261 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:46:04.261 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:46:04.261 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:04.441 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:46:04.729 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:46:04.729 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:46:04.730 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:46:04.734 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:46:17.126 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:46:17.127 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:46:17.236 [http-nio-8080-exec-7] ERROR c.l.r.common.GlobalExceptionHandler - Duplicate entry 'zhangsan' for key 'employee.idx_username'
+10:46:40.277 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:46:40.284 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:46:42.904 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 23233 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:46:42.906 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:46:43.608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:46:43.615 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:46:43.616 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:46:43.616 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:46:43.650 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:46:43.650 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 719 ms
+10:46:43.968 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:46:43.968 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:46:44.147 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:46:44.157 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:46:44.165 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.604 seconds (process running for 2.696)
+10:46:44.166 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:46:50.241 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:46:50.241 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:46:50.242 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:46:50.244 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+10:46:50.245 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.289 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+10:46:50.290 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.290 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+10:46:50.290 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+10:46:50.290 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.290 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.290 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+10:46:50.296 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.295 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+10:46:50.299 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.301 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+10:46:50.301 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.304 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+10:46:50.304 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.304 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+10:46:50.304 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.309 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+10:46:50.310 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.310 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+10:46:50.310 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.313 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+10:46:50.313 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.313 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+10:46:50.314 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.349 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+10:46:50.349 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.376 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+10:46:50.382 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.384 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+10:46:50.385 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.433 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:46:50.448 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:46:50.462 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+10:46:50.464 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.542 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+10:46:50.542 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.588 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+10:46:50.588 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+10:46:50.588 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+10:46:50.588 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+10:46:50.588 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.589 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.589 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:50.589 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:51.626 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:46:51.626 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:51.798 [http-nio-8080-exec-4] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:46:52.072 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:46:52.072 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:46:52.073 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:46:52.077 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:46:53.747 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/add.html
+10:46:53.748 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:46:53.769 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/index.js
+10:46:53.769 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:47:14.348 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:47:14.349 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:47:33.247 [http-nio-8080-exec-6] ERROR c.l.r.common.GlobalExceptionHandler - Duplicate entry 'zhangsan' for key 'employee.idx_username'
+10:47:41.950 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:47:41.958 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:54:16.706 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 23400 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+10:54:16.708 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+10:54:17.419 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:54:17.426 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:54:17.426 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:54:17.427 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+10:54:17.455 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:54:17.455 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 707 ms
+10:54:17.757 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+10:54:17.758 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+10:54:17.906 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:54:17.918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+10:54:17.926 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.514 seconds (process running for 1.927)
+10:54:17.927 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+10:54:25.274 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:54:25.275 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:54:25.281 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+10:54:25.283 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:54:25.293 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+10:54:25.427 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+10:54:25.428 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:54:26.463 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+10:54:26.463 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:54:26.465 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+10:54:26.466 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+10:54:26.633 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:54:27.013 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+10:54:27.014 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:54:27.015 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+10:54:27.019 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+10:54:54.079 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+10:54:54.081 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+10:54:54.208 [http-nio-8080-exec-6] ERROR c.l.r.common.GlobalExceptionHandler - Duplicate entry 'zhangsan' for key 'employee.idx_username'
+10:55:00.471 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:55:00.489 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:14:01.030 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 24243 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+14:14:01.032 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+14:14:01.734 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:14:01.741 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:14:01.742 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:14:01.742 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+14:14:01.771 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:14:01.771 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 696 ms
+14:14:02.085 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+14:14:02.086 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+14:14:02.234 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:14:02.247 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+14:14:02.255 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.537 seconds (process running for 2.046)
+14:14:02.256 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+14:14:08.721 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:14:08.721 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:14:08.723 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:14:08.725 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+14:14:08.726 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.777 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+14:14:08.777 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+14:14:08.777 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.777 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+14:14:08.777 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.777 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.777 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+14:14:08.777 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.777 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+14:14:08.777 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+14:14:08.778 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.778 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.780 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+14:14:08.780 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+14:14:08.781 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.781 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:08.876 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:14:08.886 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+14:14:08.967 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+14:14:08.967 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.049 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+14:14:09.049 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.049 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+14:14:09.049 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.049 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+14:14:09.049 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+14:14:09.050 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.050 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.056 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+14:14:09.056 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+14:14:09.056 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.056 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:09.111 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+14:14:09.111 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.487 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+14:14:10.488 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.491 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+14:14:10.491 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.656 [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:14:10.865 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+14:14:10.865 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.911 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+14:14:10.911 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+14:14:10.911 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+14:14:10.911 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.911 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.911 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+14:14:10.911 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.911 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:14:10.997 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:14:10.998 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:14:10.998 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /employee/page
+14:14:11.003 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /employee/page.
+14:15:39.354 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+14:15:39.364 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:15:41.934 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 24279 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+14:15:41.936 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+14:15:42.543 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:15:42.550 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:15:42.551 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:15:42.551 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+14:15:42.579 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:15:42.580 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 621 ms
+14:15:42.878 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+14:15:42.878 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+14:15:43.025 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:15:43.037 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+14:15:43.044 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.342 seconds (process running for 1.868)
+14:15:43.045 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+14:15:48.064 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:15:48.064 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:15:48.065 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:15:48.067 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+14:15:48.068 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:15:48.300 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:15:48.321 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+14:15:48.328 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+14:15:48.328 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:15:49.553 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+14:15:49.553 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:15:49.719 [http-nio-8080-exec-4] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:15:49.977 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:15:49.977 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:15:49.981 [http-nio-8080-exec-5] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+14:16:00.813 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:16:00.814 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:16:00.817 [http-nio-8080-exec-6] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhangsan
+14:16:03.178 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:16:03.178 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:16:03.180 [http-nio-8080-exec-7] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhangsan
+14:16:09.700 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+14:16:09.700 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:16:16.244 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:16:16.244 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:16:16.245 [http-nio-8080-exec-9] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhangsan
+14:16:53.501 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+14:16:53.511 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:36:19.635 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 24574 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+14:36:19.638 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+14:36:20.285 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:36:20.292 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:36:20.293 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:36:20.293 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+14:36:20.322 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:36:20.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+14:36:20.632 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+14:36:20.633 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+14:36:20.784 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:36:20.796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+14:36:20.804 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.414 seconds (process running for 1.879)
+14:36:20.805 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+14:36:25.218 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:36:25.219 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:36:25.220 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:36:25.222 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+14:36:25.223 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:36:25.483 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:36:25.504 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+14:36:26.339 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+14:36:26.339 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:36:26.509 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:36:26.842 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:36:26.842 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:36:26.860 [http-nio-8080-exec-4] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+14:36:58.234 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+14:36:58.263 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:41:30.436 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 24608 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+14:41:30.439 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+14:41:31.103 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:41:31.110 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:41:31.111 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:41:31.111 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+14:41:31.140 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:41:31.140 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 666 ms
+14:41:31.430 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+14:41:31.431 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+14:41:31.578 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:41:31.590 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+14:41:31.598 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.467 seconds (process running for 2.105)
+14:41:31.599 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+14:41:35.446 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:41:35.446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:41:35.448 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+14:41:35.450 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+14:41:35.452 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:41:35.602 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:35.623 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+14:41:36.450 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+14:41:36.451 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+14:41:36.616 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:41:36.950 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:36.950 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:36.960 [http-nio-8080-exec-4] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+14:41:39.984 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:39.984 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:39.985 [http-nio-8080-exec-5] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhang
+14:41:43.613 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:43.614 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:43.616 [http-nio-8080-exec-6] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhangsam
+14:41:44.823 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:44.823 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:44.824 [http-nio-8080-exec-7] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhangsan
+14:41:45.929 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:45.930 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:45.931 [http-nio-8080-exec-8] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: zhangsan
+14:41:49.763 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:49.763 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:49.764 [http-nio-8080-exec-9] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+14:41:59.748 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+14:41:59.749 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+14:41:59.751 [http-nio-8080-exec-10] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: 张
+14:42:11.425 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+14:42:11.441 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+15:13:28.746 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 24916 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+15:13:28.749 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+15:13:29.502 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15:13:29.508 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:13:29.509 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:13:29.509 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+15:13:29.538 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:13:29.539 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 750 ms
+15:13:29.848 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+15:13:29.848 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+15:13:30.003 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:13:30.015 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+15:13:30.022 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.691 seconds (process running for 2.66)
+15:13:30.024 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+15:13:33.923 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:13:33.924 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:13:33.926 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:13:33.928 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+15:13:33.930 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.002 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+15:13:34.002 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.007 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+15:13:34.007 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.007 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+15:13:34.008 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.009 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+15:13:34.009 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.007 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+15:13:34.012 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.012 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+15:13:34.012 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.013 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+15:13:34.014 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.017 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+15:13:34.017 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.017 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+15:13:34.017 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.018 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+15:13:34.018 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.018 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+15:13:34.019 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.024 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+15:13:34.025 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.026 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+15:13:34.026 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.080 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+15:13:34.081 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.101 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+15:13:34.101 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+15:13:34.102 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.102 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.170 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:13:34.209 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+15:13:34.212 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+15:13:34.212 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.341 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+15:13:34.342 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.421 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+15:13:34.422 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.424 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+15:13:34.425 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.425 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+15:13:34.425 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:34.426 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+15:13:34.427 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:35.576 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+15:13:35.576 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:35.576 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+15:13:35.576 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:35.747 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:13:36.057 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:13:36.058 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:13:36.068 [http-nio-8080-exec-10] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+15:13:40.235 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+15:13:40.236 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:43.959 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/fonts/PingFangSC-Medium.ttf
+15:13:43.959 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/fonts/PingFangSC-Regular.ttf
+15:13:43.960 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:43.960 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:13:48.183 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+15:13:48.184 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:13:48.198 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+15:13:59.945 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+15:13:59.946 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:13:59.947 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+15:14:24.066 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+15:14:24.078 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+15:43:26.071 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 25440 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+15:43:26.074 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+15:43:26.725 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15:43:26.732 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:43:26.732 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:43:26.733 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+15:43:26.768 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:43:26.768 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 666 ms
+15:43:27.077 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+15:43:27.077 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+15:43:27.222 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:43:27.234 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+15:43:27.242 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.436 seconds (process running for 2.112)
+15:43:27.243 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+15:43:31.860 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:43:31.861 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:43:31.863 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:43:31.865 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+15:43:31.866 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:43:32.172 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:43:32.186 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+15:43:33.340 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+15:43:33.340 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:43:33.513 [http-nio-8080-exec-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:43:33.825 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:43:33.829 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:43:33.837 [http-nio-8080-exec-4] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+15:43:40.553 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/fonts/PingFangSC-Regular.ttf
+15:43:40.553 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/fonts/PingFangSC-Medium.ttf
+15:43:40.553 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:43:40.553 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:43:41.939 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+15:43:41.940 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:43:41.994 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:43:41.995 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:43:41.996 [http-nio-8080-exec-8] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+15:44:24.417 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+15:44:24.428 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+15:56:53.735 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 25628 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+15:56:53.737 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+15:56:54.401 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15:56:54.408 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:56:54.409 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:56:54.409 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+15:56:54.439 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:56:54.439 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+15:56:54.755 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+15:56:54.756 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+15:56:54.904 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:56:54.916 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+15:56:54.924 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.418 seconds (process running for 2.062)
+15:56:54.926 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+15:57:01.295 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:57:01.296 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:57:01.301 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+15:57:01.304 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+15:57:01.305 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.375 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+15:57:01.375 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+15:57:01.375 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.375 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.377 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+15:57:01.377 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.377 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+15:57:01.377 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+15:57:01.377 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+15:57:01.377 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.377 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.377 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.387 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+15:57:01.388 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.392 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+15:57:01.393 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+15:57:01.392 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+15:57:01.393 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.393 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.393 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+15:57:01.393 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.393 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+15:57:01.393 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.393 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.407 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+15:57:01.408 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.468 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+15:57:01.468 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.477 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+15:57:01.477 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+15:57:01.477 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.477 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.543 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:57:01.572 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 未登陆
+15:57:01.573 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/favicon.ico
+15:57:01.573 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.674 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+15:57:01.674 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.719 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+15:57:01.719 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.721 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+15:57:01.721 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+15:57:01.721 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.721 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:01.722 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+15:57:01.722 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:02.583 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+15:57:02.584 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:02.584 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+15:57:02.585 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+15:57:02.757 [http-nio-8080-exec-6] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:57:03.062 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:57:03.062 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:57:03.068 [http-nio-8080-exec-1] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+15:57:11.553 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+15:57:11.554 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:57:11.616 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:57:11.617 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:57:11.618 [http-nio-8080-exec-10] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+15:57:21.718 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+15:57:21.719 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:57:21.746 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+15:57:21.747 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+15:57:21.748 [http-nio-8080-exec-2] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+15:57:42.148 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+15:57:42.163 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+16:25:58.692 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 25991 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+16:25:58.694 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+16:25:59.384 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:25:59.390 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:25:59.391 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:25:59.392 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+16:25:59.421 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:25:59.421 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 689 ms
+16:25:59.737 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+16:25:59.738 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+16:25:59.888 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:25:59.900 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+16:25:59.908 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.517 seconds (process running for 2.035)
+16:25:59.909 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+16:26:18.423 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:26:18.423 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:26:18.424 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:26:18.426 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/login/login.html
+16:26:18.427 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.469 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/login.css
+16:26:18.469 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.469 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.css
+16:26:18.470 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.470 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/logo.png
+16:26:18.470 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.471 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+16:26:18.471 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.472 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/request.js
+16:26:18.472 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.473 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+16:26:18.473 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.473 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/common.css
+16:26:18.473 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.474 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+16:26:18.474 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/validate.js
+16:26:18.474 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.474 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.474 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/login.js
+16:26:18.474 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.475 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+16:26:18.475 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.478 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-l.png
+16:26:18.479 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:18.564 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/icon/iconfont.woff2
+16:26:18.564 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.226 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/login
+16:26:20.227 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.228 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/fonts/element-icons.woff
+16:26:20.228 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.236 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/fonts/element-icons.woff
+16:26:20.236 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.385 [http-nio-8080-exec-5] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:26:20.581 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/index.html
+16:26:20.582 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.594 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/index.css
+16:26:20.594 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/login/login-logo.png
+16:26:20.595 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.595 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.598 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_back@2x.png
+16:26:20.599 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.600 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/images/icons/btn_close@2x.png
+16:26:20.601 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.662 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/list.html
+16:26:20.662 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.673 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/styles/page.css
+16:26:20.673 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/api/member.js
+16:26:20.673 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.673 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:20.737 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+16:26:20.737 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+16:26:20.741 [http-nio-8080-exec-9] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+16:26:27.188 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/page/member/add.html
+16:26:27.189 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:27.233 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/js/index.js
+16:26:27.233 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+16:26:27.259 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/1806518223760363521
+16:26:27.260 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+16:26:39.231 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee
+16:26:39.232 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+16:26:39.357 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/employee/page
+16:26:39.357 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 用户已登陆，ID = 1
+16:26:39.360 [http-nio-8080-exec-10] INFO  c.l.r.controller.EmployeeController - page: 1, pagesize: 10, name: null
+16:26:57.104 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+16:26:57.128 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
