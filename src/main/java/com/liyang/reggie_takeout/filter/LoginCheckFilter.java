@@ -1,6 +1,7 @@
 package com.liyang.reggie_takeout.filter;
 
 import com.alibaba.fastjson.JSON;
+import com.liyang.reggie_takeout.common.BaseContext;
 import com.liyang.reggie_takeout.common.R;
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
@@ -38,7 +39,9 @@ public class LoginCheckFilter implements Filter {
         }
 
         if (request.getSession().getAttribute("employee") != null) {
-            log.info("用户已登陆，ID = {}", request.getSession().getAttribute("employee"));
+            Long empId = (Long) request.getSession().getAttribute("employee");
+            log.info("用户已登陆，ID = {}", empId);
+            BaseContext.setCurrentId(empId);
             filterChain.doFilter(request, response);
             return;
         }
