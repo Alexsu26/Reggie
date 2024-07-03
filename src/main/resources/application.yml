@@ -22,3 +22,6 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
+
+reggie:
+  path: /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/src/main/resources/backend/images/upload

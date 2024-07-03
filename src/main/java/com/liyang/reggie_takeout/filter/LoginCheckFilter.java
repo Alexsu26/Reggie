@@ -36,18 +36,16 @@ public class LoginCheckFilter implements Filter {
             log.info("本次请求放行");
             filterChain.doFilter(request,response);
             return;
-        }
-
-        if (request.getSession().getAttribute("employee") != null) {
+        } else if (request.getSession().getAttribute("employee") != null) {
             Long empId = (Long) request.getSession().getAttribute("employee");
             log.info("用户已登陆，ID = {}", empId);
             BaseContext.setCurrentId(empId);
             filterChain.doFilter(request, response);
             return;
+        } else {
+            log.info("未登陆");
+            response.getWriter().write(JSON.toJSONString(R.error("NOTLOGIN")));
         }
-
-        log.info("未登陆");
-        response.getWriter().write(JSON.toJSONString(R.error("NOTLOGIN")));
         return;
     }
 
@@ -56,7 +54,8 @@ public class LoginCheckFilter implements Filter {
                 "/backend/**",
                 "/front/**",
                 "/employee/login",
-                "/employee/logout"
+                "/employee/logout",
+                "/common/**"
         };
         for (String url : urls) {
             boolean match = pathMatcher.match(url, requestURL);
