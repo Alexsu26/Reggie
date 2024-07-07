@@ -42,6 +42,12 @@ public class LoginCheckFilter implements Filter {
             BaseContext.setCurrentId(empId);
             filterChain.doFilter(request, response);
             return;
+        } else if (request.getSession().getAttribute("user") != null) {
+            log.info("用户已登录，id为{}", request.getSession().getAttribute("user"));
+            Long userId = (Long) request.getSession().getAttribute("user");
+            BaseContext.setCurrentId(userId);
+            filterChain.doFilter(request, response);
+            return;
         } else {
             log.info("未登陆");
             response.getWriter().write(JSON.toJSONString(R.error("NOTLOGIN")));
@@ -55,7 +61,9 @@ public class LoginCheckFilter implements Filter {
                 "/front/**",
                 "/employee/login",
                 "/employee/logout",
-                "/common/**"
+                "/common/**",
+                "/user/sendMsg",
+                "/user/login"
         };
         for (String url : urls) {
             boolean match = pathMatcher.match(url, requestURL);

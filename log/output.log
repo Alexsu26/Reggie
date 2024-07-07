@@ -4592,3 +4592,236 @@ java.sql.SQLException: Field 'dish_id' doesn't have a default value
 16:03:03.489 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
 16:03:08.237 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
 16:03:08.254 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:01:52.097 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 43666 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+17:01:52.099 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+17:01:52.665 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:01:52.669 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:01:52.670 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:01:52.670 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:01:52.691 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:01:52.691 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 572 ms
+17:01:53.161 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+17:01:53.162 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+17:01:53.391 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:01:53.436 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:01:53.445 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:01:53.454 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.551 seconds (process running for 1.942)
+17:01:53.456 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+17:01:53.920 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:01:53.920 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:01:53.921 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+17:01:53.942 [RMI TCP Connection(3)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:01:55.338 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:01:55.339 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.384 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/js/base.js
+17:01:55.384 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.385 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/styles/vant.min.css
+17:01:55.386 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.386 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/styles/login.css
+17:01:55.386 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/js/vant.min.js
+17:01:55.386 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.386 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.386 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/styles/index.css
+17:01:55.386 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.386 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/js/request.js
+17:01:55.387 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/api/login.js
+17:01:55.387 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.387 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.388 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+17:01:55.388 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.389 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+17:01:55.389 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.389 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+17:01:55.390 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.389 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+17:01:55.390 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.464 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/fonts/PingFangSC-Regular.ttf
+17:01:55.464 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:55.592 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/images/favico.ico
+17:01:55.592 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:01:58.748 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:01:58.749 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:06:44.857 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:06:44.859 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:06:44.994 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:06:44.994 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:08:51.171 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:08:51.178 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:08:53.298 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 43849 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+17:08:53.299 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+17:08:53.893 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:08:53.899 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:08:53.900 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:08:53.902 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:08:53.925 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:08:53.926 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 608 ms
+17:08:54.287 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+17:08:54.287 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+17:08:54.437 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:08:54.472 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:08:54.478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:08:54.487 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.343 seconds (process running for 1.663)
+17:08:54.490 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+17:08:54.587 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:08:54.587 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:08:54.588 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:08:54.617 [RMI TCP Connection(3)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:08:57.838 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:08:57.839 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:08:58.024 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:08:58.028 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.778 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:10:21.779 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.811 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/js/base.js
+17:10:21.812 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.816 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/styles/vant.min.css
+17:10:21.816 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.816 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.css
+17:10:21.817 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.817 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/element-ui/index.js
+17:10:21.817 [http-nio-8080-exec-10] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.817 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/vue/vue.js
+17:10:21.817 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.818 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/styles/login.css
+17:10:21.818 [http-nio-8080-exec-7] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.824 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/js/vant.min.js
+17:10:21.823 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/styles/index.css
+17:10:21.824 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.824 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.826 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/api/login.js
+17:10:21.826 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.827 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/js/request.js
+17:10:21.828 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.829 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.js
+17:10:21.830 [http-nio-8080-exec-8] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:21.870 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/fonts/PingFangSC-Regular.ttf
+17:10:21.870 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:22.132 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/images/favico.ico
+17:10:22.133 [http-nio-8080-exec-9] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:10:25.356 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:10:25.357 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:15:09.203 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:15:09.216 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:18:52.082 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 44162 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+17:18:52.086 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+17:18:52.690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:18:52.695 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:18:52.696 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:18:52.696 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:18:52.718 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:18:52.719 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 604 ms
+17:18:53.113 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+17:18:53.113 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+17:18:53.272 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:18:53.308 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:18:53.315 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:18:53.324 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.434 seconds (process running for 1.837)
+17:18:53.328 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+17:18:53.844 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:18:53.845 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:18:53.850 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+17:18:53.887 [RMI TCP Connection(1)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:18:53.910 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:18:53.910 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:18:54.089 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:18:54.089 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:18:54.892 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:18:54.892 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:18:55.039 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:18:55.040 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:19:01.345 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/user/sendMsg
+17:19:01.345 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:19:01.351 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+17:26:20.208 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:26:20.216 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:29:28.903 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 44314 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+17:29:28.905 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+17:29:29.662 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:29:29.667 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:29:29.668 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:29:29.668 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:29:29.690 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:29:29.690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 747 ms
+17:29:30.090 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+17:29:30.091 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+17:29:30.260 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:29:30.296 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:29:30.304 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:29:30.314 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.762 seconds (process running for 2.19)
+17:29:30.317 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+17:29:30.533 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:29:30.534 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:29:30.535 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:29:30.561 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:29:43.489 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:29:43.490 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:29:43.662 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:29:43.662 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:29:52.197 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/user/sendMsg
+17:29:52.197 [http-nio-8080-exec-5] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:29:52.200 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+17:30:14.118 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:30:14.124 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:30:16.089 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 44328 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+17:30:16.090 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+17:30:16.637 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:30:16.642 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:30:16.642 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:30:16.642 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:30:16.661 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:30:16.662 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+17:30:17.015 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+17:30:17.016 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+17:30:17.167 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:30:17.202 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:30:17.208 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:30:17.217 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.287 seconds (process running for 1.608)
+17:30:17.220 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+17:30:17.413 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:30:17.413 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:30:17.414 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:30:17.442 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:30:24.435 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:30:24.436 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:30:24.627 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:30:24.627 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:30:30.627 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/user/sendMsg
+17:30:30.628 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:30:30.702 [http-nio-8080-exec-4] INFO  c.l.r.controller.UserController - code = 4200
+17:30:37.070 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/user/login
+17:30:37.071 [http-nio-8080-exec-6] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:30:37.073 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for POST /user/login
+17:30:37.076 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint POST /user/login.
+17:30:42.034 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:30:42.052 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:32:55.349 [main] INFO  c.l.reggie_takeout.ReggieApplication - Starting ReggieApplication using Java 17.0.11 with PID 44383 (/Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie/target/classes started by liyang in /Users/liyang/Documents/Code/how2Java/SpringSeries/Reggie)
+17:32:55.351 [main] INFO  c.l.reggie_takeout.ReggieApplication - No active profile set, falling back to 1 default profile: "default"
+17:32:56.132 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:32:56.137 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:32:56.137 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:32:56.137 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:32:56.163 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:32:56.163 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 788 ms
+17:32:56.599 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射
+17:32:56.600 [main] INFO  c.l.r.config.WebMVCConfig - 加载静态资源映射成功
+17:32:56.793 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:32:56.835 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:32:56.843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:32:56.854 [main] INFO  c.l.reggie_takeout.ReggieApplication - Started ReggieApplication in 1.703 seconds (process running for 2.62)
+17:32:56.858 [main] INFO  c.l.reggie_takeout.ReggieApplication - 项目启动成功
+17:32:57.501 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:32:57.501 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:32:57.503 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:32:57.533 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:33:01.925 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/front/page/login.html
+17:33:01.927 [http-nio-8080-exec-1] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:33:02.101 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/backend/plugins/axios/axios.min.map
+17:33:02.101 [http-nio-8080-exec-2] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:33:07.912 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/user/sendMsg
+17:33:07.912 [http-nio-8080-exec-3] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:33:07.966 [http-nio-8080-exec-3] INFO  c.l.r.controller.UserController - code = 7334
+17:33:14.659 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 请求路径：/user/login
+17:33:14.662 [http-nio-8080-exec-4] INFO  c.l.r.filter.LoginCheckFilter - 本次请求放行
+17:33:19.632 [http-nio-8080-exec-4] INFO  c.l.r.controller.UserController - map : {phone=13812345678, code=7334}
+17:33:28.510 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:33:28.521 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
