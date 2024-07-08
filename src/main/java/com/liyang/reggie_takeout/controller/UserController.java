@@ -1,6 +1,5 @@
-package com.liyang.reggie_takeout.controller;
+œpackage com.liyang.reggie_takeout.controller;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.liyang.reggie_takeout.common.R;
 import com.liyang.reggie_takeout.entity.User;
@@ -13,7 +12,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
-import java.util.Objects;
 
 @RestController
 @RequestMapping("/user")
@@ -39,27 +37,12 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public R<User> login(@RequestBody Map map, HttpSession session) {
+    public R<String> login(@RequestBody Map map, HttpSession session) {
         log.info("map : {}", map.toString());
 
-        String phone = map.get("phone").toString();
-        String code = map.get("code").toString();
+        String 
 
-        Object codeInSession = session.getAttribute(phone);
-        if (code != null && code.equals(codeInSession)) {
-            LambdaQueryWrapper<User> queryWrapper = new LambdaQueryWrapper<>();
-            queryWrapper.eq(User::getPhone, phone);
-            User user = userService.getOne(queryWrapper);
 
-            if (user == null) {
-                user = new User();
-                user.setPhone(phone);
-                user.setStatus(1);
-                userService.save(user);
-            }
-            return R.success(user);
-        }
-
-        return R.error("验证失败！");
+        return null;
     }
 }
