@@ -148,7 +148,7 @@ public class DishController {
         }).toList();
 
         // 并把数据缓存到redis中
-        redisTemplate.opsForValue().set(key, dishDtoList, 30, TimeUnit.MINUTES);
+        redisTemplate.opsForValue().set(key, dishDtoList, 3, TimeUnit.MINUTES);
         return R.success(dishDtoList);
     }
 }
